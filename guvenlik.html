@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Guvenlik | Icon2014 Games</title>
+  <meta name="description" content="Icon2014 Games guvenlik bilgilendirmesi.">
+  <meta name="theme-color" content="#1293d8">
+  <link rel="icon" type="image/png" href="assets/icon2014.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800&display=swap"
+    rel="stylesheet"
+  >
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="site-bg"></div>
+  <header class="site-header">
+    <div class="container nav-shell">
+      <a class="brand" href="index.html" aria-label="Icon2014 Games ana sayfa">
+        <img src="assets/icon2014.png" alt="Icon2014 Games logo">
+        <span>Icon2014 Games</span>
+      </a>
+
+      <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="site-nav">
+        Menu
+      </button>
+
+      <nav class="site-nav" id="site-nav">
+        <a href="index.html">Ana Sayfa</a>
+        <a href="iletisim.html">Iletisim</a>
+        <a href="gizlilik.html">Gizlilik</a>
+        <a class="is-active" href="guvenlik.html">Guvenlik</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero hero-page">
+      <div class="hero-backdrop"></div>
+      <div class="container hero-content">
+        <p class="eyebrow">Guvenlik</p>
+        <h1>Site ve marka tarafinda temel guvenlik yaklasimini acikliyoruz.</h1>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container split-grid">
+        <article class="card page-copy">
+          <h2>Teknik altyapi</h2>
+          <p>
+            Site GitHub Pages uzerinde HTTPS ile yayinlanir. Bu yapi sayesinde statik
+            dosyalar guvenli baglanti uzerinden sunulur ve barindirma tarafinda ek sunucu
+            yonetimi gerekmez.
+          </p>
+          <ul class="meta-list">
+            <li>HTTPS zorlanir</li>
+            <li>Statik barindirma kullanilir</li>
+            <li>Alan adi ozel olarak baglanmistir</li>
+          </ul>
+        </article>
+
+        <article class="card page-copy">
+          <h2>Bildirim ve destek</h2>
+          <p>
+            Eger sitede guvenlik acigi, yanlis yonlendirme veya suistimal riski gorduysen,
+            bize e-posta ile bilgi verebilirsin. Geri donusleri makul surede incelemeye
+            calisiriz.
+          </p>
+          <div class="button-row">
+            <a class="button button-light" href="mailto:support@sortheist.com">Destek E-postasi</a>
+            <a class="button button-outline" href="gizlilik.html">Gizlilik sayfasi</a>
+          </div>
+        </article>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div>
+        <h3>Icon2014 Games</h3>
+        <p>Mobil oyun dunyasinda kaliteli ve eglenceli deneyimler sunuyoruz.</p>
+      </div>
+
+      <div>
+        <h3>Hizli Linkler</h3>
+        <a href="index.html">Ana Sayfa</a>
+        <a href="iletisim.html">Iletisim</a>
+        <a href="gizlilik.html">Gizlilik</a>
+        <a href="guvenlik.html">Guvenlik</a>
+      </div>
+
+      <div>
+        <h3>Iletisim</h3>
+        <a href="mailto:support@sortheist.com">support@sortheist.com</a>
+      </div>
+    </div>
+
+    <div class="container footer-bottom">
+      <p>&copy; <span id="year"></span> Icon2014 Games. Tum haklari saklidir.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

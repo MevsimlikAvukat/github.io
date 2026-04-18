@@ -1,9 +1,165 @@
 <!DOCTYPE html>
-<html>
+<html lang="tr">
 <head>
-  <title>Site Çalışıyor</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sort Heist 3D | Icon2014 Games</title>
+  <meta
+    name="description"
+    content="Icon2014 Games icin hazirlanan resmi Sort Heist 3D tanitim sayfasi."
+  >
+  <meta name="theme-color" content="#1293d8">
+  <link rel="icon" type="image/png" href="assets/icon2014.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800&display=swap"
+    rel="stylesheet"
+  >
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <h1>Site yayında 🚀</h1>
+  <div class="site-bg"></div>
+  <header class="site-header">
+    <div class="container nav-shell">
+      <a class="brand" href="index.html" aria-label="Icon2014 Games ana sayfa">
+        <img src="assets/icon2014.png" alt="Icon2014 Games logo">
+        <span>Icon2014 Games</span>
+      </a>
+
+      <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="site-nav">
+        Menu
+      </button>
+
+      <nav class="site-nav" id="site-nav">
+        <a class="is-active" href="index.html">Ana Sayfa</a>
+        <a href="iletisim.html">Iletisim</a>
+        <a href="gizlilik.html">Gizlilik</a>
+        <a href="guvenlik.html">Guvenlik</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero hero-home">
+      <div class="hero-backdrop"></div>
+      <div class="container hero-content">
+        <p class="eyebrow">Sort Heist 3D</p>
+        <h1>Mobil oyun dunyasina hos geldiniz.</h1>
+        <p class="hero-copy">
+          Icon2014 Games ile canli renkler, hizli bolumler ve akilda kalan bir arcade
+          deneyimi burada bulusuyor. Sort Heist 3D icin resmi tanitim sayfasi artik yayinda.
+        </p>
+        <div class="hero-actions">
+          <a class="button button-dark" href="#oyun">Oyunu Incele</a>
+          <a class="button button-light" href="iletisim.html">Iletisime Gec</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container info-grid" id="oyun">
+        <article class="card card-feature">
+          <p class="eyebrow">Oyun Hakkinda</p>
+          <h2>Sort Heist 3D ile hiz, renk ve akicilik one cikiyor.</h2>
+          <p>
+            Bu sayfa yeni oyunculara oyunun atmosferini ilk bakista anlatmak icin
+            tasarlandi. Store linkleri, ekran goruntuleri ve guncellemeler eklendikce
+            ayni yapi uzerinden buyutebiliriz.
+          </p>
+          <ul class="bullet-list">
+            <li>Tek dokunusla anlasilan sade arayuz</li>
+            <li>Mobil odakli hizli oynanis</li>
+            <li>Sort Heist 3D markasina uygun renkli gorsel dunya</li>
+          </ul>
+        </article>
+
+        <article class="card card-image">
+          <img src="assets/mainmenu.png" alt="Sort Heist 3D ana menu gorseli">
+        </article>
+      </div>
+    </section>
+
+    <section class="section section-soft">
+      <div class="container">
+        <div class="section-heading">
+          <p class="eyebrow">Neler Var</p>
+          <h2>Baslangic icin yeterli, buyumek icin esnek bir yapi.</h2>
+        </div>
+
+        <div class="three-up">
+          <article class="card mini-card">
+            <h3>Resmi Ana Sayfa</h3>
+            <p>
+              Oyunun marka sunumu, aciklama metni ve ana gorsel ile tek noktadan guclu
+              bir ilk izlenim verir.
+            </p>
+          </article>
+          <article class="card mini-card">
+            <h3>Iletisim Sayfasi</h3>
+            <p>
+              Oyuncularin, yayinclarin veya is birligi yapmak isteyen kisilerin sana
+              ulasmasi icin duzenli bir alan sunar.
+            </p>
+          </article>
+          <article class="card mini-card">
+            <h3>Guven ve Yasal Alanlar</h3>
+            <p>
+              Gizlilik ve guvenlik sayfalari sayesinde site daha profesyonel ve daha
+              guvenilir gorunur.
+            </p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container promo-grid">
+        <article class="card studio-card">
+          <div class="studio-copy">
+            <p class="eyebrow">Icon2014 Games</p>
+            <h2>Kucuk ama karakterli bir oyun markasi icin temiz bir vitrin.</h2>
+            <p>
+              Figma tasarimindaki duyguyu koruyup bunu kod tarafinda daha duzenli,
+              mobil uyumlu ve bakimi kolay bir yapiya ceviriyoruz.
+            </p>
+            <a class="text-link" href="guvenlik.html">Guvenlik sayfasini incele</a>
+          </div>
+          <div class="studio-logo">
+            <img src="assets/icon2014.png" alt="Icon2014 Games amblem">
+          </div>
+        </article>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div>
+        <h3>Icon2014 Games</h3>
+        <p>Mobil oyun dunyasinda kaliteli ve eglenceli deneyimler sunuyoruz.</p>
+      </div>
+
+      <div>
+        <h3>Hizli Linkler</h3>
+        <a href="index.html">Ana Sayfa</a>
+        <a href="iletisim.html">Iletisim</a>
+        <a href="gizlilik.html">Gizlilik</a>
+        <a href="guvenlik.html">Guvenlik</a>
+      </div>
+
+      <div>
+        <h3>Sosyal Medya</h3>
+        <a href="iletisim.html">Instagram bilgisi eklenecek</a>
+        <a href="mailto:support@sortheist.com">support@sortheist.com</a>
+      </div>
+    </div>
+
+    <div class="container footer-bottom">
+      <p>&copy; <span id="year"></span> Icon2014 Games. Tum haklari saklidir.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
 </body>
 </html>
