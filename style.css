@@ -187,6 +187,20 @@ a {
   font-size: 1.2rem;
 }
 
+.hero-media {
+  width: min(760px, 100%);
+  margin: 28px auto 0;
+}
+
+.hero-video {
+  display: block;
+  width: 100%;
+  border: 1px solid var(--line);
+  border-radius: 28px;
+  background: rgba(5, 12, 22, 0.85);
+  box-shadow: var(--shadow);
+}
+
 .eyebrow {
   margin: 0 0 12px;
   color: #dff6ff;
@@ -364,7 +378,7 @@ a {
 
 .footer-grid {
   display: grid;
-  grid-template-columns: 1.1fr 0.9fr 0.9fr;
+  grid-template-columns: 1fr 1fr;
   gap: 24px;
 }
 
@@ -460,6 +474,10 @@ a {
 
   .hero-copy {
     font-size: 1.05rem;
+  }
+
+  .hero-media {
+    margin-top: 22px;
   }
 
   .button,
