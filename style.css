@@ -269,6 +269,21 @@ a {
   font-size: clamp(2rem, 5vw, 3.2rem);
 }
 
+.info-grid2,
+.card-image img2,
+
+.info-grid2 {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 16px;
+}
+
+.card-image img2 {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
 .info-grid,
 .promo-grid,
 .split-grid,
