@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Güvenlik | Sortheist</title>
+  <meta name="description" content="Sort Heist 3D icin yayin oncesi guvenlik ve magaza uyumluluk notlari.">
+  <meta name="theme-color" content="#1293d8">
+  <link rel="icon" type="/image/png" href="/assets/icon2014.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800&display=swap"
+    rel="stylesheet"
+  >
+  <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+  <div class="site-bg"></div>
+  <header class="site-header">
+    <div class="container nav-shell">
+      <a class="brand" href="/index.html" aria-label="Sortheist Games ana sayfa">
+        <img src="/assets/icon2014.png" alt="Sortheist Games logo">
+      </a>
+
+      <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="site-nav">
+        Menu
+      </button>
+
+      <nav class="site-nav" id="site-nav">
+        <a href="/index.html">Ana Sayfa</a>
+        <a href="/gizlilik.html">Gizlilik</a>
+        <a class="is-active" href="/guvenlik.html">Güvenlik</a>
+        <a href="/iletisim.html">İletişim</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero hero-page">
+      <div class="hero-backdrop"></div>
+      <div class="container hero-content">
+        <p class="eyebrow">Guvenlik</p>
+        <h1>Yayın öncesi kontrol listesi ve teknik güvenlik notları.</h1>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container page-stack">
+        <article class="card page-copy">
+          <h2>Google Play icin kontrol listesi</h2>
+          <ul class="meta-list">
+            <li>Privacy policy linki Play Console'da yer almalı</li>
+            <li>Data safety beyanları uygulamadaki gerçek veri akışıyla uyumlu olmalı</li>
+            <li>Yayın ve güncellemeler için aktif iletişim e-postasi bulunmalı</li>
+            <li>Hesap sistemi varsa web üzerinden hesap silme talep sayfası eklenmeli</li>
+          </ul>
+        </article>
+
+        <article class="card page-copy">
+          <h2>App Store için kontrol listesi</h2>
+          <ul class="meta-list">
+            <li>Privacy policy URL tüm uygulamalar için girilmeli</li>
+            <li>Support URL gerçek iletişim bilgilerine gitmeli</li>
+            <li>App privacy beyanları üçüncü taraf SDK'ları da kapsayacak şekilde doğru olmalı</li>
+            <li>Hesap sistemi varsa silme işlemi uygulama içinden başlatılabilmeli</li>
+          </ul>
+        </article>
+
+        <article class="card page-copy">
+          <h2>Teknik güvenlik altyapısı</h2>
+          <ul class="meta-list">
+            <li>Site GitHub Pages uzerinde HTTPS ile yayinlanır.</li>
+            <li>Statik barındırma sayesinde ek sunucu yonetimi gerekmez</li>
+            <li>Özel alan adı ve kamuya açık URL'ler mağazalar için kolay doğrulama sağlar</li>
+          </ul>
+        </article>
+
+        <article class="card page-copy">
+          <h2>Hesap silme notu</h2>
+          <p>
+            Uygulamada şu an hesap acma sistemi yoksa ayri bir hesap silme sayfasi zorunlu
+            olmayabilir. Ancak ileride hesap, abonelik veya kullanici verisi tutan bir yapi
+            eklenirse `/delete-account` benzeri ayri bir kamuya acik sayfa planlanmalidir.
+          </p>
+          <div class="button-row">
+            <a class="button button-light" href="iletisim.html">Destek sayfasına git</a>
+            <a class="button button-outline" href="gizlilik.html">Gizlilik sayfasi</a>
+          </div>
+        </article>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div>
+        <h3>Hizli Linkler</h3>
+        <a href="index.html">Ana Sayfa</a>
+        <a href="gizlilik.html">Gizlilik</a>
+        <a href="guvenlik.html">Güvenlik</a>
+        <a href="iletisim.html">İletişim</a>
+      </div>
+
+      <div>
+        <h3>İletişim</h3>
+        <a href="mailto:info@arcurastudio.com">info@arcurastudio.com</a>
+      </div>
+    </div>
+
+    <div class="container footer-bottom">
+      <p>&copy; <span id="year"></span> Sortheist. Tüm hakları saklıdır.</p>
+    </div>
+  </footer>
+
+  <script src="/script.js"></script>
+</body>
+</html>
