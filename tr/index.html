@@ -1,1 +1,151 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sort Heist 3D | Sortheist Games</title>
+  <meta
+    name="description"
+    content="Sort Heist 3D icin resmi oyun tanitimi, store baglantilari ve destek sayfalari."
+  >
+  <meta name="theme-color" content="#1293d8">
+  <link rel="icon" type="image/png" href="/assets/icon2014.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800&display=swap"
+    rel="stylesheet"
+  >
+  <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+  <div class="site-bg"></div>
+  <header class="site-header">
+    <div class="container nav-shell">
+      <a class="brand" href="/index.html" aria-label="Sortheist Games ana sayfa">
+        <img src="/assets/icon2014.png" alt="Sortheist Games logo">
+      </a>
 
+      <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="site-nav">
+        Menu
+      </button>
+
+      <nav class="site-nav" id="site-nav">
+        <a class="is-active" href="/index.html">Ana Sayfa</a>
+        <a href="/gizlilik.html">Gizlilik</a>
+        <a href="/guvenlik.html">Güvenlik</a>
+        <a href="/iletisim.html">İletişim</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero hero-home">
+      <div class="hero-backdrop"></div>
+      <div class="container hero-content">
+        <h1>Renkler Çoğaldıkça zaman sana yetişebilecek mi?</h1>
+        <p class="hero-copy">
+          Sort Heist 3D'de görevin basit görünür: topları doğru renklerle zaman bitmeden
+          eşleştir. Ama her yeni bölümde renk sayısı artar, hata payın daralır ve kalan
+          saniyeler daha da hızlı erimeye başlar.
+        </p>
+        <div class="hero-media">
+          <video
+            class="hero-video"
+            src="assets/sortheist3d.mp4"
+            autoplay
+            muted
+            loop
+            playsinline
+            controls
+            preload="metadata"
+          ></video>
+        </div>
+        <div class="hero-actions">
+          <a class="button button-dark" href="https://apps.apple.com" target="_blank" rel="noreferrer">App Store</a>
+          <a class="button button-light" href="https://play.google.com/store" target="_blank" rel="noreferrer">Google Play</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container info-grid" id="oyun">
+        <article class="card card-feature">
+          <p class="eyebrow">Oynanış</p>
+          <h2>Her saniye daha zor, her eşleşme daha kritik.</h2>
+          <p>
+            İlk anlarda her şey kolay gorunur. Doğru renkleri seçmek basittir, ritim
+            nettir ve süre yeterli gelir. Sonra yeni renkler devreye girer, kararların
+            hızlanır ve hata yapmadan ilerlemek gerçek meydan okumaya donüşür.
+          </p>
+          <ul class="bullet-list">
+            <li>Topları dogğru renklere hızlı şekilde eşleştir</li>
+            <li>Her bölümde yeni renk kombinasyonlarına uyum sagla</li>
+            <li>Azalan süreye rağmen ritmini kaybetmeden ilerle</li>
+          </ul>
+        </article>
+
+        <article class="card card-image">
+          <img src="/assets/mainmenu.png" alt="Sort Heist 3D ana menu gorseli">
+        </article>
+      </div>
+    </section>
+
+    <section class="section section-soft">
+      <div class="container">
+        <div class="section-heading">
+          <p class="eyebrow">Neden Bağımlılık Yapiyor</p>
+          <h2>Renkler, hız ve baskı aynı anda üstüne gelir.</h2>
+        </div>
+
+        <div class="three-up">
+          <article class="card mini-card">
+            <h3>Daha Fazla Renk</h3>
+            <p>
+              İlerleyen bölümlerde yeni renkler oyuna girdikçe doğru seçimi yapmak daha
+              fazla dikkat ve daha hızlı karar ister.
+            </p>
+          </article>
+          <article class="card mini-card">
+            <h3>Daha Az Süre</h3>
+            <p>
+              Kalan zaman daraldıkça her hamle daha değerli hale gelir ve reflekslerin
+              oyunun en büyük silahı olur.
+            </p>
+          </article>
+          <article class="card mini-card">
+            <h3>Daha Yüksek Tempo</h3>
+            <p>
+              Tempoyu yakaladığında seri hissi tatmin edici olur; kaçırdığında ise oyun
+              sana anında baskıyı hissettirir.
+            </p>
+          </article>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div>
+        <h3>Hizli Linkler</h3>
+        <a href="/index.html">Ana Sayfa</a>
+        <a href="/gizlilik.html">Gizlilik</a>
+        <a href="/guvenlik.html">Güvenlik</a>
+        <a href="/iletisim.html">İletişim</a>
+      </div>
+
+      <div>
+        <h3>Destek</h3>
+        <a href="/mailto:info@arcurastudio.com">info@arcurastudio.com</a>
+      </div>
+    </div>
+
+    <div class="container footer-bottom">
+      <p>&copy; <span id="year"></span> Sortheist. Tüm hakları saklıdır.</p>
+    </div>
+  </footer>
+
+  <script src="/script.js"></script>
+</body>
+</html>
