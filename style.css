@@ -285,6 +285,7 @@ a {
 }
 
 .info-grid,
+.feature-grid-four,
 .promo-grid,
 .split-grid,
 .contact-grid {
@@ -294,6 +295,10 @@ a {
 
 .info-grid {
   grid-template-columns: 1.1fr 0.9fr;
+}
+
+.feature-grid-four {
+  grid-template-columns: repeat(4, minmax(0, 1fr));
 }
 
 .contact-grid {
@@ -333,6 +338,10 @@ a {
 
 .card-image {
   overflow: hidden;
+  min-height: 100%;
+}
+
+.feature-preview {
   min-height: 100%;
 }
 
@@ -417,6 +426,7 @@ a {
 
 @media (max-width: 960px) {
   .info-grid,
+  .feature-grid-four,
   .split-grid,
   .three-up,
   .contact-grid,
